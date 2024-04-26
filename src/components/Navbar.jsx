@@ -14,7 +14,7 @@ function Navbar(props) {
   const [bar, toggleBar] = useState(false);
 
   function setBar() {
-    props.setOptions(bar);
+    // props.setOptions(bar);
     return toggleBar((prev) => {
       return !prev;
     });
@@ -46,12 +46,12 @@ function Navbar(props) {
               />
             </svg>
           </div>
-          {/* <div style={{visibility:bar? "visible":"hidden"}} className="absolute right-40 top-30">
+          <div style={{visibility:bar? "visible":"hidden"}} className="absolute right-40 top-30">
             <div>About us</div>
             <div>Platform</div>
             <div>Solution</div>
             <div>Customer</div>
-          </div> */}
+          </div>
         </div>
       ) : (
         <div className="h-20 sm:w-11/12 flex flex-row justify-between mr-4 ml-9 items-center">
