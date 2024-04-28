@@ -10,7 +10,7 @@ function Body(props) {
             Empower your finance team. The onestop plateform for all financial
             management of small and medium-sized business.
           </div>
-          <div className="bg-white rounded-3xl h-9 sm:w-9/12 w-11/12 flex flex-row items-center justify-between px-2 text-xs">
+          <div className="bg-white rounded-3xl h-9 sm:w-9/12 w-60 flex flex-row items-center justify-between sm:px-2 pl-2 pr-1 text-xs">
             <input
               type="email"
               className=" w-4/5 border-hidden text-black"
@@ -18,7 +18,7 @@ function Body(props) {
             />
             <input
               type="submit"
-              className="bg-[#A3DC2F] h-6 sm:w-28 rounded-full text-black text-xs"
+              className="bg-[#A3DC2F] h-6 sm:w-28 rounded-full text-black text-xs px-2"
               value={"Book a Demo"}
             />
           </div>

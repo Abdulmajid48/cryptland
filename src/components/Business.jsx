@@ -55,7 +55,7 @@ function Business(props) {
           <div className="text-black flex flex-col gap-5 items-start sm:mt-0">
             <p className="font-bold text-3xl">{props.optimise}</p>
             <p className="text-xs">{props.bring}</p>
-            <button className="text-xs bg-[#A3DC2F] rounded-full p-2">
+            <button className="text-xs bg-[#A3DC2F] rounded-full p-2 px-5">
               {props.explore}
             </button>
           </div>
