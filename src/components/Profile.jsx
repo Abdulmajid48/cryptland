@@ -6,7 +6,7 @@ function Profile() {
         <div className="font-bold sm:w-1/3 w-4/5 m-auto text-center text-4xl mt-10">
           Modern Companies are built on Capital.
         </div>
-        <div className="text-xs sm:w-1/2 w-4/5 m-auto text-center px-14">
+        <div className="text-xs sm:w-1/2 w-11/12 m-auto text-center px-14 leading-6">
           we provide software for the financial and operational needs of today`s
           founders so they can get back to doing what they do best-building
         </div>

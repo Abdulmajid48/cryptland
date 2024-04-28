@@ -4,6 +4,9 @@ import Navbar from "../components/Navbar";
 import Business, { business } from "../components/Business";
 import Profile from "../components/Profile";
 import Plan from "../components/Plan";
+import Testimonies from "../components/Testimonies";
+import Upgrade from "../components/Upgrade";
+import Footer from "../components/Footer";
 
 function Homepage() {
   return (
@@ -25,6 +28,9 @@ function Homepage() {
       })}
       <Profile />
       <Plan />
+      <Testimonies />
+      <Upgrade />
+      <Footer />
     </div>
   );
 }

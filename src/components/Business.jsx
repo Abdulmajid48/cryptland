@@ -26,7 +26,7 @@ function Business(props) {
                   marginTop: props.realtimediv ? "2rem" : null,
                 }}
               >
-                <img src="./images/ashley.svg" alt="" />
+                <img src="./images/monthlylimit.svg" alt="" />
               </div>
             ) : (
               <div className="flex flex-row bg-white sm:justify-between gap-1">
@@ -43,7 +43,7 @@ function Business(props) {
               className="row-span-2 mt-8"
               style={{
                 order: props.realtimediv ? 1 : null,
-                marginTop: props.realtimediv ? "0" : null,
+                marginTop: props.realtimediv ? "1rem" : null,
               }}
             >
               <img src={props.img2} alt="" />
@@ -60,7 +60,6 @@ function Business(props) {
             </button>
           </div>
         </div>
-        <div></div>
       </div>
     </div>
   );
