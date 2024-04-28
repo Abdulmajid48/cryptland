@@ -2,9 +2,9 @@ function Footer(props) {
   const date = new Date();
   return (
     <div className="flex flex-col justify-between bg-black gap-16 text-white pt-20  h-auto">
-      <div className=" flex flex-col justify-center items-center w-full sm:h-96 h-full">
+      <div className=" flex flex-col justify-center items-center w-full sm:h-80 h-full">
         <div className="w-10/12 flex sm:flex-row flex-col gap-20">
-          <div className=" flex flex-col gap-8 w-5/12">
+          <div className=" flex flex-col gap-8 sm:w-5/12 w-3/4">
             <div className="flex flex-row gap-2 text-center">
               <div className="flex justify-center items-center">
                 <img src="./images/logo.svg" alt="" className="h-10" />
@@ -56,7 +56,7 @@ function Footer(props) {
         </div>
       </div>
       <div className="border-t border-white w-5/6 m-auto mb-5 pt-8 text-xs text-center text-[#BCBCBC]">
-        © {date.getFullYear()} Crypt Land. All rights reserved | Cookie
+        ©{date.getFullYear()} Crypt Land. All rights reserved | Cookie
         Settings, Anti-Spam, Privacy, User agreement, Legal Notice and
         Responsible Disclosure
       </div>

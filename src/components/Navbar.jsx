@@ -27,9 +27,10 @@ function Navbar(props) {
             <div>
               <img src="./images/logo.svg" alt="" className="h-10" />
             </div>
-            <div>Crypt Land</div>
+            <div className="text-xl">Crypt Land</div>
           </div>
           <div onClick={setBar}>
+            {/* change navbar icon */}
             {bar ? (
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -73,6 +74,7 @@ function Navbar(props) {
           </div>
         </div>
       ) : (
+        //toggle hidden bar
         <div className="h-20 sm:w-11/12 flex flex-row justify-between mr-4 ml-9 items-center">
           <div className="flex flex-row justify-between gap-4 text-lg">
             <div>About us</div>

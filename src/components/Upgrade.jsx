@@ -1,7 +1,7 @@
 function Upgrade(props) {
   return (
     <div className="bg-white flex justify-center items-center min-h-80 w-full mb-20">
-      <div className="bg-[#003FDB] flex sm:flex-row flex-col-reverse justify-center items-center text-white gap-10 w-5/6 h-5/6 rounded-xl p-2 sm:pl-5">
+      <div className="bg-[#003FDB] flex sm:flex-row flex-col-reverse justify-center items-center text-white gap-10 w-5/6 h-5/6 rounded-xl p-2 sm:pl-5 mt-10">
         <div className="flex flex-col gap-12 sm:px-3">
           <div className="text-3xl font-bold sm:w-2/3 w-5/6 m-auto sm:m-0 ">
             Let`s Upgrade your finances experience by using Cryptland
