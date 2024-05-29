@@ -13,7 +13,7 @@ function Body(props) {
           <div className="bg-white rounded-3xl h-9 sm:w-9/12 w-60 flex flex-row items-center justify-between sm:px-2 pl-2 pr-1 text-xs">
             <input
               type="email"
-              className=" w-4/5 border-hidden text-black"
+              className=" w-4/5 border-hidden text-black focus:outline-none"
               placeholder="enter your email address"
             />
             <input
